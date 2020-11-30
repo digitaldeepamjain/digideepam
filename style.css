@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#mainheader{
+    position: relative;
+     height: 9%;
+     width: 100%;
+     background-color: rgb(255, 255, 255);
+}
+
+#header{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80%;
+    width: 90%;
+}
+
+#header a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 10px;
+    color: black;
+}
+
+.site-identity{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#background{
+    height: 100%;
+    width: 100%;
+    background-image: url(images/lapi-background.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+#overlay{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: #6363637e;
+}
+
+#content{
+    height: 100%;
+    width: 65%;
+    margin: 10% 7% 2% 6%;
+}
+
+#content h1{
+    font-size: 90px;
+    color: #063fa8a6;
+    font-weight: 900;
+    line-height: 97px;
+}
+
+#content p{
+    margin-top: 8px;
+    color: white;
+    font-size: 14.8px;
+    line-height: 22px;
+    font-weight: 450;
+}
+
+#content input{
+    height: 50px;
+    width: 94%;
+    margin-top: 45px;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+}
+
+#content input[type=text] {
+    padding-left: 20px;
+    font-size: 17px;
+}
+
+#content input:hover{
+    transform: scale(1.01);
+    transition: .5s;
+}
+
+#content button{
+    padding: 18px 150px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 100px;
+    outline: none;
+    background-color: #063fa8a6;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#content button:hover{
+    box-shadow: 0 0 30px #063fa871;
+    transform: scale(1.01);
+    transition: .5s;
+}
+
+#socialicons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 60%;
+    margin-top: 60px;
+}
+
+#icon{
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+#icon:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+#icon.fb{
+    background-color: #3A558E;
+}
+
+#icon.insta{
+    background-color: black;
+}
+
+#icon.twitter{
+    background-color: #2198E2;
+}
+
+#icon.youtube{
+    background-color: #C02524;
+}
+
+#icon.linkedin{
+    background-color: #0773AB;
+}
+
+#icon i{
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    color: white;
+}
+
+#img{
+    margin: 5% 0 0 0;
+    padding-bottom: 0;
+    width: 35%;
+    height: 100%;
+}
